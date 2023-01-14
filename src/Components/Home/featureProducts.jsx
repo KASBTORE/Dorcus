@@ -26,7 +26,7 @@ function FeatureProducts() {
         </div> 
         </div>
 
-        <div className="lg:h-[45%]  w-full h-[50%]  flex-col lg:flex-row flex items-center justify-center bg-green-500 ">
+        <div className="lg:h-[45%]  w-full h-[50%]  flex-col lg:flex-row flex items-center justify-center ">
             <div className="h-full lg:w-[42%] w-full  bg-[url(http://localhost/kabstore-main/kabstore-main/assets/img/banner/banner-2-1.jpg)] scale-90 flex flex-col justify-center  ">
             <h1 className="text-5xl text-white font-semibold ml-20 mt-2 "  >EARBURDS</h1>
           <p className="text-[#d9d9d9] font-normal ml-20 mt-16 text-lg ">KABSTORE is World's largest otd online marketpalce <br /> the connectin buyers with suppliers.</p>
