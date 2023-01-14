@@ -39,13 +39,13 @@ function FindIcons() {
    
 
   return (
-    <div className="w-full items-center justify-center h-[40%]">
-        <ul className=" flex justify-around w-full h-full">{ 
+    <div className="lg:w-full items-center justify-center h-[100%] ">
+        <ul className=" flex justify-around w-full h-full overflow-x-scroll lg:overflow-visible items-center ">{ 
         Icons.map((icon=>{
             return (
-                <div className="flex flex-col justify-around items-center h-full w-[20%]">
-                <li className="scale-150" style={{transform:"scale(2.5)"}}>{icon.icons}</li>
-                {icon.text}
+                <div className="flex flex-col lg:justify-center justify-center items-center h-[30%] lg:h-full w-[80px]  lg:scale-[1.5] scale-[2.5] ">
+                <li className=" " style={{transform:"scale(1.7)"}}>{icon.icons}</li>
+                <li className='scale-[0.5] pt-5 overflow-x-auto lg:block hidden' >{icon.text}</li>
                 </div>
             )
     }))}

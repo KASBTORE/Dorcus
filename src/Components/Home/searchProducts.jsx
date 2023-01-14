@@ -44,22 +44,27 @@ function SearchProducts() {
           
     ]
   return (
-    <div className='h-full w-full flex justify-evenly items-center border-t-2 border-[#7777]'>
+    <div className='h-full w-full flex justify-evenly items-center border-t-2 border-[#7777] overflow-x-scroll lg:overflow-auto '>
         { 
         Products.map((product=>{
             return (
-               <div className="h-[70%] w-[20%] border-r-2 border-[#7777] ">
-                <div className=" flex justify-between ">
+               <div className="h-[75%] lg:w-[20%] w-[68%] border-r-2 border-[#7777] ">
+                <div className="h-full lg:w-full w-[250px]  flex flex-col justify-center items-center  ">  
+                <div className=" w-full flex justify-between ">
                     <p>{product.category}</p>
                     <div className="flex">
                         <p className='mr-1'>{product.like}</p>
                     </div>
                     
                 </div>
-                <img src={product.image} alt="" />
+                <div className="h- full w-full">
+                  <img src={product.image} alt="" />
                 <p className='font-semibold'>{product.name}</p>
                 <p>{product.price}</p>
-               </div>
+                </div>
+                
+               </div></div>
+              
             )
     }))}
     </div>

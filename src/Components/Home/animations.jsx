@@ -13,7 +13,7 @@ function Animations(props) {
 ];
 
   return (
-    <div className="lg:h-[100vh] h-[200vh] lg:w-full w-[567px] flex flex-col md:w-[768px] ">
+    <div className="lg:h-[100vh] h-[190vh] lg:w-full w-[567px] flex flex-col md:w-[768px] ">
       <div className="lg:h-[20%] h-[5%] w-full"></div>
       <div className="lg:h-[80vh] h-[85%] lg:w-full w-[90%] justify-center lg:flex lg:ml-0 ml-7 md:ml-9">
       <div className="lg:h-full h-1/2 lg:w-1/2 w-full">
@@ -37,7 +37,7 @@ function Animations(props) {
           <div className="h-full lg:w-1/2 w-full bg-[url('Images/video-banner.jpg')] bg-center bg-no-repeat bg-cover object-contain scale-90 ">
           </div>
 
-          <div className="h-full lg:w-1/2  w-full bg-[url('Images/page-3-banner.jpg')] hidden md:block bg-center bg-no-repeat bg-cover object-cover scale-90 flex flex-col justify-center " style={{}}>
+          <div className="h-[100%] lg:w-1/2  w-full bg-[url('Images/page-3-banner.jpg')] hidden md:block bg-center bg-no-repeat bg-cover object-cover scale-90 lg:flex flex-col justify-center " style={{}}>
             <h1 className="text-5xl text-white font-semibold ml-20 mt-2 "  >Music Monster</h1>
             <p className="text-[#d9d9d9] font-normal ml-20 mt-16 text-lg ">KABSTORE is World's largest otd online marketpalce the connectin buyers with suppliers.</p>
             <Buttons text={"SHOP NOW"}></Buttons>

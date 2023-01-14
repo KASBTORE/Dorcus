@@ -4,17 +4,17 @@ import SearchButton from './searchButton'
 import SearchProducts from './searchProducts'
 function FindExactly() {
   return (
-    <div className="h-screen w-full flex flex-col">
-        <div className="flex h-[30%] w-full justify-evenly">
-        <div className="flex flex-col w-[20%] justify-center items-center ">
+    <div className="lg:h-screen h-[120vh] lg:w-full w-[570px] mb-[rem] flex flex-col  ">
+        <div className="lg:flex lg:h-[30%]  h-[40%] w-full justify-evenly  ">
+        <div className="flex flex-col lg:w-[20%] w-full justify-center  lg:pr-0 pl-7 items-start ">
             <h1 className="text-black font-bold text-4xl">Find Exactly What <br /> You Need </h1>
             <p className="text-[#888888] mt-4">KABSTORE is World’s largest otd online <br />
                 marketplace the connecting buyers <br />
                 with suppliers.</p>
         </div>
-        <div className="flex  justify-evenly w-[55%] items-center">
+        <div className="flex h-[80%] lg:pb-0 pb-[8rem] justify-evenly lg:w-[55%] w-full  items-center  ">
              <FindIcons></FindIcons>
-             </div>
+        </div>
         </div>
         <div className="flex h-[55%] w-full justify-center ">
           <div className="flex flex-col h-full w-[78%] border-2 border-[#7777]  ">
