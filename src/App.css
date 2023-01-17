@@ -39,3 +39,28 @@
 .read-the-docs {
   color: #888;
 } */
+.black {
+  color: black;
+}
+.deals-countdown .countdown-inner ul li {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 400;
+  margin-right: 4px;
+  text-align: center;
+  color: #777777;
+}
+.deals-countdown .countdown-inner ul li span {
+  background-color: var(--clr-gray-4);
+  display: block;
+  text-align: center;
+  line-height: 58px;
+  border-radius: 3px;
+  min-height: 58px;
+  margin-bottom: 4px;
+  min-width: 60px;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--clr-link-1);
+}

@@ -16,6 +16,9 @@ function Animations(props) {
     <div className="lg:h-[100vh] h-[190vh] lg:w-full w-[567px] flex flex-col md:w-[768px] ">
       <div className="lg:h-[20%] h-[5%] w-full"></div>
       <div className="lg:h-[80vh] h-[85%] lg:w-full w-[90%] justify-center lg:flex lg:ml-0 ml-7 md:ml-9">
+
+        {/* Slide show div */}
+
       <div className="lg:h-full h-1/2 lg:w-1/2 w-full">
       <Zoom scale={1.7} indicators={false} style={{marginTop:"-30px"}}>
             {images.map((each, index) => (
@@ -32,23 +35,28 @@ function Animations(props) {
             ))}
       </Zoom>
       </div>
+      {/* end */}
+
+      {/* pagebanners */}
+
       <div className="lg:h-full h-1/2 lg:w-1/2 flex flex-col   bg-white">
         <div className="lg:h-1/2 h-[50%]  w-full lg:flex md:flex">
           <div className="h-full lg:w-1/2 w-full bg-[url('Images/video-banner.jpg')] bg-center bg-no-repeat bg-cover object-contain scale-90 ">
           </div>
 
-          <div className="h-[100%] lg:w-1/2  w-full bg-[url('Images/page-3-banner.jpg')] hidden md:block bg-center bg-no-repeat bg-cover object-cover scale-90 lg:flex flex-col justify-center " style={{}}>
-            <h1 className="text-5xl text-white font-semibold ml-20 mt-2 "  >Music Monster</h1>
-            <p className="text-[#d9d9d9] font-normal ml-20 mt-16 text-lg ">KABSTORE is World's largest otd online marketpalce the connectin buyers with suppliers.</p>
-            <Buttons text={"SHOP NOW"}></Buttons>
+          <div className="h-[100%] lg:w-1/2 md:h-[100%]  w-full bg-[url('Images/page-3-banner.jpg')] hidden md:block bg-center bg-no-repeat bg-cover object-cover scale-90 lg:flex flex-col justify-center md:justify-around " style={{}}>
+            <h1 className="lg:text-5xl md:text-3xl text-white font-semibold ml-20 mt-2 "  >Music Monster</h1>
+            <p className="text-[#d9d9d9] font-normal ml-20 mt-16 lg:text-lg md:text-base ">KABSTORE is World's largest otd online marketpalce the connectin buyers with suppliers.</p>
+            <Buttons className="" text={"SHOP NOW"}></Buttons>
           </div>
         </div>
         <div className="lg:h-1/2 h-1/2 w-full bg-[url('Images/page-3-banner-2.jpg')] bg-center bg-no-repeat bg-cover object-cover flex flex-col justify-center  ">
-        <h1 className="text-5xl text-white font-semibold ml-20 mt-2 "  >XBOX 5</h1>
-          <p className="text-[#d9d9d9] font-normal ml-20 mt-16 text-lg ">KABSTORE is World's largest otd online marketpalce <br /> the connectin buyers with suppliers.</p>
+        <h1 className="lg:text-5xl md:text-3xl text-white font-semibold ml-20 mt-2 "  >XBOX 5</h1>
+          <p className="text-[#d9d9d9] md:text-base font-normal ml-20 mt-16 lg:text-lg ">KABSTORE is World's largest otd online marketpalce <br /> the connectin buyers with suppliers.</p>
           <Buttons text={"SHOP NOW"}></Buttons>
         </div>
       </div>
+      
       </div>
  
     </div>
