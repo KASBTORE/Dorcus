@@ -13,7 +13,7 @@ function LikeButton() {
   return (
     <button onClick={handleClick}>
       {/* <FontAwesomeIcon icon={faHeart} className={liked ? 'text' : 'text'} /> */}
-      <FaRegHeart className={liked ? 'text-black' : 'text-gray-400'}/>
+      <FaRegHeart className={liked ? 'text-black scale-[1.2]' : 'text-gray-400'}/>
     </button>
   );
 }
