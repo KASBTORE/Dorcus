@@ -1,5 +1,5 @@
 import React from 'react'
-import Countdown from './countDown'
+// import Countdown from './countDown'
 
 function Offers() {
   return (
@@ -7,7 +7,7 @@ function Offers() {
       <div className="h-full w-full items-center flex  bg-[url('https://images.unsplash.com/photo-1563549054059-bf4ebe2f49d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')] bg-center bg-no-repeat bg-cover ">
         <div className="h-[70%] lg:w-[35%] w-[80%] flex lg:ml-40 ml-7 md:ml-10 bg-[#ffff]">
           <div className="h-full w-[50%] items-center flex justify-center">
-            <img src="http://localhost/kabstore-main/kabstore-main/assets/img/product/2.jpg" alt="" />
+            <img src="2.jpg" alt="" />
           </div>
           <div className="h-full w-[50%] flex flex-col  justify-evenly">
             <p className='text-gray-400'>HEADPONES, OFFICE</p>

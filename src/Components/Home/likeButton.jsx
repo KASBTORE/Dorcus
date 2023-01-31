@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaRegHeart } from "react-icons/fa";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 function LikeButton() {
   const [liked, setLiked] = useState(false);

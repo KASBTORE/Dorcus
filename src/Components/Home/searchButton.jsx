@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 function SearchButton() {
 
@@ -17,13 +17,13 @@ const words=[
     }
 ]
 
-
   return (
     <div className='h-full w-full flex  '>
         <div className='h-full w-full '>{ 
         words.map((word=>{
             return (
-               <button className=" h-full lg:w-[25%] w-[50%] md:w-[25%] border-2 border-[#7777] hover:text-black text-[#777777]">{word.head}
+               <button
+                className="bg-gray-100 h-full lg:w-[25%] w-[50%] md:w-[25%] border-2 border-[#7777] hover:text-black text-[#777777]">{word.head}
                </button>
             )
     }))}</div>

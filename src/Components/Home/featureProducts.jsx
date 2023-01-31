@@ -1,9 +1,10 @@
-import React from 'react'
 import Buttons from './buttons'
 import SearchProducts from './searchProducts'
+import React, { useState } from 'react';
 
 
 function FeatureProducts() {
+
   return (
     <div className='lg:h-[120vh] h-[250vh] md:h-[150vh] lg:w-full w-[567px] md:w-[768px] flex flex-col justify-around  '>
         <div className="h-[40%] md:h-[40%]   w-full lg:flex md:flex md:flex-col lg:flex-row lg:justify-center items-center justify-center  md:justify-around">
@@ -20,19 +21,20 @@ function FeatureProducts() {
            </div> 
         </div>
         <div className="">
-          <SearchProducts></SearchProducts>
+          <SearchProducts 
+          ></SearchProducts>
         </div>
             
         </div> 
         </div>
 
         <div className="lg:h-[45%]  w-full h-[50%]  flex-col lg:flex-row flex items-center justify-center ">
-            <div className="h-full lg:w-[42%] w-full  bg-[url(http://localhost/kabstore-main/kabstore-main/assets/img/banner/banner-2-1.jpg)] scale-90 flex flex-col justify-center  ">
+            <div className="h-full lg:w-[42%] w-full  bg-[url(https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80)] bg-center bg-no-repeat bg-cover object-cover scale-90 flex flex-col justify-center  ">
             <h1 className="text-5xl text-white font-semibold ml-20 mt-2 "  >EARBURDS</h1>
           <p className="text-[#d9d9d9] font-normal ml-20 mt-16 text-lg ">KABSTORE is World's largest otd online marketpalce <br /> the connectin buyers with suppliers.</p>
           <Buttons text={"Purchase it"}></Buttons>
             </div>
-            <div className="h-full lg:w-[42%] w-full bg-[url(http://localhost/kabstore-main/kabstore-main/assets/img/banner/banner-2-2.jpg)] scale-90 flex flex-col justify-center ">
+            <div className="h-full lg:w-[42%] w-full bg-[url(https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80)]  scale-90 flex flex-col justify-center ">
             <h1 className="text-5xl text-white font-semibold ml-20 mt-2 "  >MONITORS</h1>
           <p className="text-[#d9d9d9] font-normal ml-20 mt-16 text-lg ">KABSTORE is World's largest otd online marketpalce <br /> the connectin buyers with suppliers.</p>
           <Buttons text={"SHOP NOW"}></Buttons>
